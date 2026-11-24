@@ -1,0 +1,15 @@
+{
+  "name": "google-script",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "login": "clasp login",
+    "create": "clasp create --title \"google-script\" --type standalone",
+    "push": "clasp push",
+    "open": "clasp open",
+    "deploy": "clasp deploy"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.0.0"
+  }
+}
